@@ -2,3 +2,4 @@
 
 1. bulb on/off feature
 2. friend request send
+3. Random color generator
