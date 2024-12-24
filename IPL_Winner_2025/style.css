@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+.winner-info {
+    margin-bottom: 1rem;
+}
+
+.winner-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
