@@ -7,3 +7,4 @@
 5. Download feature
 6. Friend Reqest send in few seconds, sending...
 7. Image Swap
+8. Insects Generator
