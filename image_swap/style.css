@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-natural-scenery-painting-cabin-by-a-lake-free-image.jpeg?w=600&quality=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-swap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.img1, .img2{
+height: 400px;
+width: 400px;
+object-fit: cover;
+object-fit: cover;
+border-radius: 10px;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #66bb6a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:active{
+    scale: 0.9;
+    background-color: rgb(2, 48, 2);
+}
