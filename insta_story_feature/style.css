@@ -79,7 +79,7 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background: linear-gradient(red, orange, rgba(255, 192, 203, 0.326), yellow);
+    background: linear-gradient(to right, red, orange, rgba(255, 192, 203, 0.326), yellow);
     display: inline-block;
     margin-left: 7px;
 
