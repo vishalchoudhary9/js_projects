@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 10px;
+}
+
+.full h2 {
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.progress {
+    height: 5px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #666;
+}
+
+.growth {
+    height: 100%;
+    width: 0%;
+    background-color: rgb(250, 246, 246);
+    border-radius: 50px;
+}
+
+.storiyan {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid #777;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.storiyan::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: linear-gradient(red, orange, rgba(255, 192, 203, 0.326), yellow);
+    display: inline-block;
+    margin-left: 7px;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 4px;
+    border-radius: 50%;
+}
